@@ -1,1 +1,4 @@
-STLINK||#CN=20=2x10-Shrouded||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+JTAG/SWD MIPI-10||#Target=10=2x5||@[Description]=JTAG/SWD MIPI-10||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=||#Debugger=10=2x5||@[Description]=JTAG/SWD MIPI-10||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
+STLINK||#CN=20=2x10-Shrouded||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
+SWD-Connector||#CN=6=1x6||@[Description]=Serial Wire Debugging Interface||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+VN1610||#CN=11=D990F||@[Description]=Vector VN1610 CAN 2ch||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
