@@ -2,6 +2,7 @@ C||2
 GND||1
 GND2||1
 GND3||1
+OPAMP||3
 P1||1
 P2||2
 P3||3
@@ -22,6 +23,7 @@ P17||17
 P18||18
 P19||19
 P20||20
+PowerSupply||2
 R||2
 V+||1
 Vcircle||1

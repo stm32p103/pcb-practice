@@ -5,6 +5,7 @@ CONN_SIL_2||#J=2=1x2||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part 
 CONN_SIL_3||#J=3=1x3||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
 CONN_SIL_4||#J=4=1x4||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
 CONN_SIL_5||#J=5=1x5||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
+Dual Opamp||#SOIC=8=SOIC127P600X175-8N||@[Description]=Dual Opamp||@Manufacturer_Part_Number=||@Manufacturer_Name=||@RS Part Number=||@Allied_Number=||@Other Part Number=||@3D Package=||@Height=
 GND||#=1=GND||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
 GND2||#=1=GND2||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
 GND3||#=1=GND3||@RS Part Number=||@Allied_Number=||@Manufacturer_Name=||@Manufacturer_Part_Number=||@Other Part Number=||@3D Package=||@Height=
