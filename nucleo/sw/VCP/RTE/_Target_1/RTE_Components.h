@@ -18,6 +18,8 @@
 
 /*  Keil.STM32CubeMX::Device:STM32Cube Framework:STM32CubeMX:1.0.0 */
 #define RTE_DEVICE_FRAMEWORK_CUBE_MX
+/*  Keil.STM32CubeMX::Device:STM32Cube HAL:1.7.0 */
+#define RTE_DEVICE_CUBE_MX_HAL
 /*  Keil::CMSIS Driver:USB Device:1.0.0 */
 #define RTE_Drivers_USBD0               /* Driver USBD0 */
 
