@@ -39,6 +39,7 @@ PA12.Signal=USB_DP
 PB8.Locked=true
 PB8.Mode=Master
 PB8.Signal=CAN_RX
+PB9.Locked=true
 PB9.Mode=Master
 PB9.Signal=CAN_TX
 PCC.Checker=false
