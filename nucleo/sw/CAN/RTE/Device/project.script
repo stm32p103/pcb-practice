@@ -1,0 +1,4 @@
+load STM32F072RBTx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "F:\DesignSpark\nucleo\sw\CAN\RTE\Device\STM32F072RBTx\" 
