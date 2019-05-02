@@ -21,8 +21,8 @@
         #define RTE_CMSIS_RTOS2_RTX5            /* CMSIS-RTOS2 Keil RTX5 */
 /*  Keil.STM32CubeMX::Device:STM32Cube Framework:STM32CubeMX:1.0.0 */
 #define RTE_DEVICE_FRAMEWORK_CUBE_MX
-/*  Keil.STM32CubeMX::Device:Startup:2.3.3 */
-#define RTE_DEVICE_STARTUP_STM32F0XX    /* Device Startup for STM32F0 */
+/*  Keil.STM32CubeMX::Device:STM32Cube HAL:1.7.0 */
+#define RTE_DEVICE_CUBE_MX_HAL
 /*  Keil::CMSIS Driver:CAN:1.0.0 */
 #define RTE_Drivers_CAN1                /* Driver CAN1 */
 

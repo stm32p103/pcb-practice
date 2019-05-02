@@ -257,17 +257,17 @@
                 <Size>0x0</Size>
               </XRAM>
               <OCR_RVCT1>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT1>
               <OCR_RVCT2>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT2>
               <OCR_RVCT3>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT3>
@@ -277,7 +277,7 @@
                 <Size>0x20000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT5>
@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Inc;.\RTE\Device\STM32F072RBTx\STCubeGenerated\Middlewares\ST\STM32_USB_Device_Library\Core\Inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -379,7 +379,74 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>USB</GroupName>
+          <Files>
+            <File>
+              <FileName>usb_device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Src\usb_device.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_cdc_if.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Src\usbd_cdc_if.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_conf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Src\usbd_conf.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_desc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Src\usbd_desc.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>:STM32CubeMX:Common Sources</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Src\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f0xx_it.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Inc\stm32f0xx_it.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f0xx_it.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Src\stm32f0xx_it.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>USB_Middleware</GroupName>
+          <Files>
+            <File>
+              <FileName>usbd_cdc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_ctlreq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.c</FilePath>
+            </File>
+            <File>
+              <FileName>usbd_ioreq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\RTE\Device\STM32F072RBTx\STCubeGenerated\Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
@@ -435,13 +502,7 @@
           <targetInfo name="Target 1"/>
         </targetInfos>
       </component>
-      <component Cbundle="STM32CubeMX" Cclass="Device" Cgroup="STM32Cube Framework" Csub="STM32CubeMX" Cvendor="Keil" Cversion="1.0.0" condition="STM32F0" generator="STM32CubeMX">
-        <package name="STM32F0xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.0.0"/>
-        <targetInfos>
-          <targetInfo name="Target 1"/>
-        </targetInfos>
-      </component>
-      <component Cbundle="STM32CubeMX" Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="2.3.3" condition="STM32F0 CMSIS STM32CubeMX">
+      <component Cbundle="STM32CubeMX" Cclass="Device" Cgroup="STM32Cube HAL" Cvendor="Keil" Cversion="1.7.0" condition="STM32F0 CMSIS STM32CubeMX">
         <package name="STM32F0xx_DFP" schemaVersion="1.2" url="http://www.keil.com/pack/" vendor="Keil" version="2.0.0"/>
         <targetInfos>
           <targetInfo name="Target 1"/>
