@@ -24,6 +24,10 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "usbd_cdc_if.h"
+#include "RTE_Components.h"
+#include "stm32f0xx.h"
+#include "cmsis_os2.h"
 
 /* USER CODE END Includes */
 
@@ -59,7 +63,18 @@ static void MX_CAN_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+__NO_RETURN void thread_a( void * arg ) {
+	while( 1 ) {
+		osDelay( 1000 );
+		CDC_Transmit_FS( (uint8_t *)"hello\n", 7U);
+	}
+}
+__NO_RETURN void thread_b( void * arg ) {
+	while( 1 ) {
+		osDelay( 2300 );
+		CDC_Transmit_FS( (uint8_t *)"bye\n", 5U);
+	}
+}
 /* USER CODE END 0 */
 
 /**
@@ -97,6 +112,11 @@ int main(void)
   /* USER CODE END 2 */
 
   /* Infinite loop */
+	osKernelInitialize();                            // initialize RTX
+	osThreadNew( thread_a, NULL, NULL);  // create some threads
+	osThreadNew( thread_b, NULL, NULL);  // create some threads
+	osKernelStart ();                                // start RTX kernel
+
   /* USER CODE BEGIN WHILE */
   while (1)
   {
