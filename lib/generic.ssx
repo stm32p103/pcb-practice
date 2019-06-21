@@ -1,7 +1,9 @@
 C||2
+D||2
 GND||1
 GND2||1
 GND3||1
+JUMPER||3
 OPAMP||3
 P1||1
 P2||2
@@ -23,8 +25,11 @@ P17||17
 P18||18
 P19||19
 P20||20
+PMEG6010CEH_115||2
 PowerSupply||2
 R||2
+SERIES_REG||3
+SERIES_REG_SOT89-3||4
 V+||1
 Vcircle||1
 Vcircle2||1
