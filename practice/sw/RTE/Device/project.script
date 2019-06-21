@@ -1,0 +1,4 @@
+load STM32F042F6Px 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "F:\DesignSpark\practice\sw\RTE\Device\STM32F042F6Px\" 
