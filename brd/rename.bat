@@ -1,11 +1,11 @@
-set NAME=nucleo
+set NAME=sample
 set DIR=gerber
 move "*Top Copper.gbr" %DIR%\%NAME%.GTL
-move "*Top Copper (Resist).gbr" %DIR%\%NAME%.GTS
+move "*Top Solder Mask.gbr" %DIR%\%NAME%.GTS
 move "*Top Silkscreen.gbr" %DIR%\%NAME%.GTO
 
 move "*Bottom Copper.gbr" %DIR%\%NAME%.GBL
-move "*Bottom Copper (Resist).gbr" %DIR%\%NAME%.GBS
+move "*Bottom Solder Mask.gbr" %DIR%\%NAME%.GBS
 move "*Bottom Silkscreen.gbr" %DIR%\%NAME%.GBO
 
 move "*Drill Data - [Through Hole].drl" %DIR%\%NAME%.TXT
