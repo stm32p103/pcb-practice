@@ -1,0 +1,111 @@
+Report Written:,"Sunday, November 17, 2019",,,,,,,,
+Project Path:,F:\DesignSpark\brd\base.prj,,,,,,,,
+Design Path:,F:\DesignSpark\brd\base.pcb,,,,,,,,
+Design Title:,,,,,,,,,
+Created:,2019/3/28 20:13,,,,,,,,
+Last Saved:,2019/11/17 1:52,,,,,,,,
+Editing Time:,6428 min,,,,,,,,
+Units:,mil (precision 0),,,,,,,,
+,,,,,,,,,
+Bill of Materials generated with DesignSpark PCB - www.DesignSpark.com/pcb,,,,,,,,,
+--------------------------------------------------------------------------,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Ref Name,Qty,Component,Value,Package,Manufacturer,MPN,RS Part Number,Other Part Number,Description
+CN5,1,1318384-2,,CN,,,,,
+C1,1,C,,1608,,GCM188R71E105,,,C
+C2,1,C,,1608,,GCM188R71E105,,,C
+C4,1,C,,1608,,GCM188R71E105,,,C
+C5,1,C,,1608,,GCM188R71E105,,,C
+C12,1,C,,1608,,GRM188R71H104KA93D,,,C
+C13,1,C,,1608,,GRM188R71H104KA93D,,,C
+C6,1,C,,1608,,GRM188R71H104KA93D,,,C
+C3,1,C,,1608,,GCM188R71E105,,,C
+C19,1,C,,1608,,GRM188R71H104KA93D,,,C
+C18,1,C,,1608,,GRM188R71H104KA93D,,,C
+C21,1,C,,1608,,GRM188R71H104KA93D,,,C
+C20,1,C,,1608,,GRM188R71H104KA93D,,,C
+C22,1,C,,1608,,GRM188R71H104KA93D,,,C
+C23,1,C,,1608,,GRM188R71H104KA93D,,,C
+C8,1,C,,1608,,GCM188R71E105,,,C
+C7,1,C,,1608,,GCM188R71E105,,,C
+C9,1,C,,1608,,GCM188R71E105,,,C
+IN0,1,CONN_SIL_1,,DSC,,,,,
+IN1,1,CONN_SIL_1,,DSC,,,,,
+IN2,1,CONN_SIL_1,,DSC,,,,,
+IN3,1,CONN_SIL_1,,DSC,,,,,
+IN4,1,CONN_SIL_1,,DSC,,,,,
+IN5,1,CONN_SIL_1,,DSC,,,,,
+IN6,1,CONN_SIL_1,,DSC,,,,,
+IN7,1,CONN_SIL_1,,DSC,,,,,
+CTRL0,1,CONN_SIL_1,,DSC,,,,,
+CTRL1,1,CONN_SIL_1,,DSC,,,,,
+OUT0,1,CONN_SIL_1,,DSC,,,,,
+OUT1,1,CONN_SIL_1,,DSC,,,,,
+OUT2,1,CONN_SIL_1,,DSC,,,,,
+OUT3,1,CONN_SIL_1,,DSC,,,,,
+OUT4,1,CONN_SIL_1,,DSC,,,,,
+OUT5,1,CONN_SIL_1,,DSC,,,,,
+OUT6,1,CONN_SIL_1,,DSC,,,,,
+OUT7,1,CONN_SIL_1,,DSC,,,,,
+P0,1,CONN_SIL_1,,DSC,,,,,
+P0in,1,CONN_SIL_1,,DSC,,,,,
+P1,1,CONN_SIL_1,,DSC,,,,,
+P1in,1,CONN_SIL_1,,DSC,,,,,
+OUT8,1,CONN_SIL_1,,DSC,,,,,
+IN8,1,CONN_SIL_1,,DSC,,,,,
+DA0,1,CONN_SIL_1,,DSC,,,,,
+DA1,1,CONN_SIL_1,,DSC,,,,,
+DA2,1,CONN_SIL_1,,DSC,,,,,
+Vin,1,CONN_SIL_1,,DSC,,,,,
+Vout,1,CONN_SIL_1,,DSC,,,,,
+J1,1,CONN_SIL_4,,J,,,,,
+J2,1,CONN_SIL_4,,J,,,,,
+CN2,1,DC Jack,,MJ-179PH,,,,,DC Jack
+CN4,1,DC Jack,,MJ-179PH,,,,,DC Jack
+RL9,1,EP1-x,,THD,,,,,Relay
+IC1,1,L78M05CDT-TR,,TO228P972X240-3N,STMicroelectronics,L78M05CDT-TR,1686801,,"Standard Regulator 5V 0.5A L78M05CDT-TR, Linear Voltage Regulator, 0.5A 5 V, 3-Pin D-PAK"
+IC10,1,LMV324IYPT,,SOP65P640X120-14N,STMicroelectronics,LMV324IYPT,,,Operational Amplifiers - Op Amps ANALOG
+IC11,1,LMV324IYPT,,SOP65P640X120-14N,STMicroelectronics,LMV324IYPT,,,Operational Amplifiers - Op Amps ANALOG
+IC6,1,LMV324IYPT,,SOP65P640X120-14N,STMicroelectronics,LMV324IYPT,,,Operational Amplifiers - Op Amps ANALOG
+IC4,1,MCP2551-I_SN,,SOIC127P600X175-8N,,SN65HVD1050DR,,,"High Speed CAN Transceiver,MCP2551-I/SN"
+IC8,1,MCP4728A0T-E_UN,,SOP50P490X110-10N,Microchip,MCP4728A0T-E/UN,,,"Digital to Analog Converters - DAC Quad, 12-bit NV DAC with I2C interface"
+IC9,1,MCP4728A0T-E_UN,,SOP50P490X110-10N,Microchip,MCP4728A0T-E/UN,,,"Digital to Analog Converters - DAC Quad, 12-bit NV DAC with I2C interface"
+IC12,1,MCP4728A0T-E_UN,,SOP50P490X110-10N,Microchip,MCP4728A0T-E/UN,,,"Digital to Analog Converters - DAC Quad, 12-bit NV DAC with I2C interface"
+Z1,1,"PESD2CAN,215",,SOT95P230X110-3N,Nexperia,"PESD2CAN,215",1242377,,"NXP PESD2CAN,215 Dual Bi-Directional ESD Protection Diode, 230W peak, 3-Pin SOT23 (TO-236AB)"
+Q1,1,QS6K1TR,,SOT23-6,,QS6K1TR,,,QS6K1TR
+R22,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+R23,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+R24,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+R11,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+R12,1,R,,3216,,RC1206JR-07120RL,,,Resistor Chip
+R13,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+R21,1,R,,1608,,RK73H1JTTD4701F,,,Resistor Chip
+R19,1,R,,1608,,RK73H1JTTD4701F,,,Resistor Chip
+R20,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+R18,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+R1,1,R,,3216,,1206W4J0101T5E,,,Resistor Chip
+R2,1,R,,3216,,1206W4J0101T5E,,,Resistor Chip
+R3,1,R,,1608,,ERJ-ERJ-3EKF1002V,,,Resistor Chip
+R4,1,R,,1608,,ERJ-ERJ-3EKF1002V,,,Resistor Chip
+R5,1,R,,1608,,ERJ-3EKF2000V,,,Resistor Chip
+R6,1,R,,1608,,ERJ-3EKF2000V,,,Resistor Chip
+R25,1,R,,1608,,ERJ-3EKF1002V,,,Resistor Chip
+CN3,1,STLINK,,CN,,,,,
+IC2,1,STM32F042F6P6,,SOP65P640X120-20N,STMicroelectronics,STM32F042F6P6,1655434,,"32-Bit MCU 32K Flash USB2.0 CAN TSSOP20 STMicroelectronics STM32F042F6P6, 32bit ARM Cortex M0 Microcontroller, 48MHz, 32 kB Flash, 20-Pin TSSOP"
+IC5,1,TCA9535PWR,,TSSOP,,TCA9535PWR,,,"Remote 16-Bit I2C and SMBus, Low-Power I/O Expander With Interrupt Output and Config Registers"
+IC3,1,TLV70233DBVR,,SOT95P280X145-5N,Texas Instruments,TLV70233DBVR,,,300mA Low-Iq Low-Dropout (LDO) Regulator for Portables
+T2,1,ULN2803ADWRG4,,SOIC127P1030X265-18N,Texas Instruments,ULN2803ADWRG4,,,Darlington Transistors TRANSISTOR ARRAYS
+T3,1,ULN2803ADWRG4,,SOIC127P1030X265-18N,Texas Instruments,ULN2803ADWRG4,,,Darlington Transistors TRANSISTOR ARRAYS
+CN1,1,VN1610,,CN,,,,,Vector VN1610 CAN 2ch
+RL1,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL2,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL4,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL3,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL5,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL6,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL7,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL8,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL12,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL11,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
+RL13,1,Y14H-1C-12DS,,DSC,,,,,1C Relay
